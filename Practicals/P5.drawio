@@ -1,0 +1,90 @@
+<mxfile host="Electron" modified="2024-03-05T03:23:20.164Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="USAT4E5-Pe7dfJpFOHjM" version="23.1.5" type="device">
+  <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
+    <mxGraphModel dx="1036" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="asp7zoz_4C53MUKrUnaT-41" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="490" y="90" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="asp7zoz_4C53MUKrUnaT-42" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="asp7zoz_4C53MUKrUnaT-41" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="asp7zoz_4C53MUKrUnaT-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="asp7zoz_4C53MUKrUnaT-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="210" as="sourcePoint" />
+            <mxPoint x="505" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="asp7zoz_4C53MUKrUnaT-49" value="Transcation bill + 18% ST" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="460" y="340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="asp7zoz_4C53MUKrUnaT-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="504.5" y="290" as="sourcePoint" />
+            <mxPoint x="504.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="asp7zoz_4C53MUKrUnaT-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="504.5" y="380" as="sourcePoint" />
+            <mxPoint x="504.5" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="asp7zoz_4C53MUKrUnaT-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="asp7zoz_4C53MUKrUnaT-52" target="asp7zoz_4C53MUKrUnaT-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asp7zoz_4C53MUKrUnaT-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="asp7zoz_4C53MUKrUnaT-52" target="asp7zoz_4C53MUKrUnaT-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asp7zoz_4C53MUKrUnaT-52" value="Is Coupons applied ?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="455" y="430" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="asp7zoz_4C53MUKrUnaT-53" value="Total bill -&amp;nbsp;coupons" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="570" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="asp7zoz_4C53MUKrUnaT-55" value="Total bill&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="asp7zoz_4C53MUKrUnaT-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="asp7zoz_4C53MUKrUnaT-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="650" as="sourcePoint" />
+            <mxPoint x="460" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="asp7zoz_4C53MUKrUnaT-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="600" as="sourcePoint" />
+            <mxPoint x="570" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="asp7zoz_4C53MUKrUnaT-59" value="Total bill&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="465" y="660" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="asp7zoz_4C53MUKrUnaT-60" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="760" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="asp7zoz_4C53MUKrUnaT-61" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="514.5" y="760" as="targetPoint" />
+            <mxPoint x="514.5" y="700" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="asp7zoz_4C53MUKrUnaT-62" value="Total bill&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="465" y="260" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="asp7zoz_4C53MUKrUnaT-63" value="add Item" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="465" y="180" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
